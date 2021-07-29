@@ -2,7 +2,7 @@ package one.digitalinnovation;
 
 public class Main {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         ListaDuplamenteEncadeada<String> minhaListaEncadeada = new ListaDuplamenteEncadeada<>();
 

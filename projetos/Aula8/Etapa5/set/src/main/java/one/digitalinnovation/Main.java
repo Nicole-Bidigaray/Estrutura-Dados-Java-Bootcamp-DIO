@@ -6,7 +6,7 @@ import java.util.TreeSet;
 
 public class Main {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Set<Carro> hashSetCarros = new HashSet<>();
 
         hashSetCarros.add(new Carro("Ford"));

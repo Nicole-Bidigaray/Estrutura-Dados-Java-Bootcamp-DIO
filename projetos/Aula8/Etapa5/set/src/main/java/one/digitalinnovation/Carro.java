@@ -46,10 +46,10 @@ public class Carro implements Comparable<Carro>{
 //            return 1;
 //        }
 //        return 0;
-//    }
+//    } organiza por ordem de tamanho
 
     @Override
     public int compareTo(Carro o) {
         return this.getMarca().compareTo(o.getMarca());
-    }
+    } // organiza por ordem alfabética
 }
